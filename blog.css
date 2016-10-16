@@ -1,0 +1,114 @@
+header {
+	font-family: 'Allerta';
+	color: rgb(159, 29, 29);
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+	width: 100%
+}
+header:hover {
+	background-color:azure;
+}
+img{
+	width: 300px;
+	height:300px;
+}
+h1 {
+	font-family: 'Paytone One';
+	color: rgb(159, 29, 29);
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.postAuthor {
+	font-family: 'Droid Sans Mono';
+	color: darkgrey;
+	font-weight: bold;
+	font-size: 16px;
+}
+.ArticleContainer {
+	background-color: #fffff0;
+	-webkit-box-shadow:10px 5px 5px orange;
+	-moz-box-shadow:10px 5px 5px orange;
+	box-shadow:10px 5px 5px orange;
+	padding: 10px 5px;
+	margin: 10px 5px;
+	border-top: 1px solid rgb(159, 29, 29);
+	border-right: 1px solid rgb(159, 29, 29);
+	border-bottom: 1px solid rgb(159, 29, 29);
+	border-left: 1px solid rgb(159, 29, 29);
+	color: black;
+	font-family: 'Tienne';
+	font-size: 16px;
+	font-style: normal;
+	text-align:justify-all;
+	tab-size:10px;
+	tab-size:2em;
+	width: 95%;
+}
+.history {
+	float:left;
+	width: 100px
+	height: 100px;
+}
+.background {
+	float: left;
+}
+.meals {
+	float:right;
+}
+.movies {
+	float: right;
+}
+table { 
+	display: inline-table;
+    margin: 1em;
+    border: 1px solid grey;
+    border-width: 2px;
+    border-spacing: 20px 10px;
+    font-family: "Baskerville";
+	table-layout: auto;
+	table-layout: fixed;
+}
+table th, table td {
+	border: solid 2px;
+	border-color:black;
+}
+thead {
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(159, 29, 29);
+}
+tbody {
+	font-size: 16px;
+	font-weight: normal;
+	color: black;
+}
+footer {
+  background-color: #808080;
+  padding: 30px 10px;
+  border-top: 5px solid white;
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  width: 100%;
+}
+footer p {
+	font-family: 'Allerta';
+	color: white;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	}
+footer a:link{
+	color:black;
+}
+footer a:visited{
+	color:purple;
+}
+footer a:hover{
+	color:white;
+}
